@@ -1,0 +1,88 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    font-family : Arial;
+}
+
+#wrapper {
+    width : 990px;
+    margin : 20px auto;
+    padding : 20px;
+    border : 1px solid black;
+}
+
+.clear {
+    clear : both;
+}
+
+h1 {
+    text-align : center;
+    color : blue;
+}
+
+ input {
+    margin : 20px;
+     border : 1px solid black;
+    border-radius : 2px;
+    cursor : pointer;
+    height : auto;
+}
+
+ input:hover {
+     background-color: azure;
+ }
+
+table {
+    margin : 20px 0 20px 20px;
+    padding : 5px;
+    height : 250px;
+    width : 400px;
+    border : solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+table td, table th {
+    border : 1px solid black;
+
+}
+
+table th {
+    height : 45px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+table tbody tr td:first-child {
+    font-weight:bold;
+}
+
+table td{
+    height : 30px;
+    font-size: 15px;
+}
+
+table caption {
+    font-size: 20px;
+    margin-bottom : 10px;
+}
+
+ul {
+    margin : 0 0 20px 20px;
+}
+
+ul li {
+    font-weight: bold;
+    list-style: none;
+    float : left;
+    margin-right : 15px;
+}
+
+ul li ul li {
+    font-weight: normal;
+    margin-left : -20px;
+}
